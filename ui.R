@@ -3,7 +3,7 @@ shinyUI(fluidPage(
   titlePanel("Yahoo Finance Gold Futures"),
   sidebarLayout(
     sidebarPanel(
-      textInput("symb", "Symbol", ),
+      textInput("symb", "Symbol", "GOLD"),
       dateRangeInput("dates",
         "Date range",
         start = "2017-01-27",
