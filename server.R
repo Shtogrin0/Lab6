@@ -6,7 +6,7 @@ shinyServer(function(input, output) {
                src = "yahoo",
                from = input$dates[1],
                to = input$dates[2],
-               auto.assign = true
+               auto.assign = FALSE)
   })
   finalInput <- reactive({
     if(!input$adjust) return (dataInput()) else adjust(dataInput())
