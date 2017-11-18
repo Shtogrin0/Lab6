@@ -1,6 +1,6 @@
 library(shiny)
 shinyUI(fluidPage(
-  titlePanel("ahoo Finance Gold Futures"),
+  titlePanel("Yahoo Finance Gold Futures"),
   sidebarLayout(
     sidebarPanel(
       textInput("symb", "Symbol", "GOLD"),
